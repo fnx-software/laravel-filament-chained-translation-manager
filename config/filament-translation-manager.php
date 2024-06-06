@@ -46,6 +46,17 @@ return [
 
     /*
      |--------------------------------------------------------------------------
+     |  Group Name
+     |--------------------------------------------------------------------------
+     |
+     | You can list the translation groups that you do not want users to translate.
+     | Note: the JSON files are grouped in 'json-file' by default.
+     | (see: config/laravel-chained-translator.php)
+     |
+     */
+    'group_name' => null,
+    /*
+     |--------------------------------------------------------------------------
      | Navigation Sort
      |--------------------------------------------------------------------------
      |
